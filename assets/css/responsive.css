@@ -1,0 +1,705 @@
+@media screen and (min-device-width: 576px) and (max-device-width: 767px) {
+
+    /* home-banner-sec css start */
+    .home-banner-sec .banner-right-image {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    /* about-sec css start */
+    .about-sec .about-image {
+        padding-top: 65%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /* header css start */
+    .site-header .mobile-menu {
+        display: none;
+    }
+
+    /* footer css start */
+    .site-footer .footer-col .footer-widget .acnav-label1 svg {
+        display: none;
+    }
+
+    .footer-row .acnav-list1 {
+        display: block !important;
+    }
+
+    /* service sec css start */
+    .service-slider {
+        margin: 0 -10px;
+    }
+
+    .service-slider .swiper-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .service-slider .swiper-slide {
+        max-width: 33.33%;
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mobile-only {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    :root {
+        --h1: normal 400 40px/1.2 var(--first-font);
+        --h2: normal 400 32px/1.2 var(--first-font);
+        --h3: normal 400 26px/1.2 var(--first-font);
+        --h4: normal 400 20px/1.2 var(--first-font);
+        --h5: normal 400 18px/1.2 var(--first-font);
+        --h6: normal 400 16px/1.2 var(--first-font);
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+    }
+
+    /* footer css */
+    .site-footer .footer-wrapper {
+        padding: 60px 0;
+    }
+
+    .site-footer .footer-logo a {
+        max-width: 150px;
+    }
+
+    .footer-wrapper .footer-left {
+        max-width: 380px;
+    }
+
+    .site-footer .footer-right {
+        max-width: calc(100% - 400px);
+    }
+
+    .site-footer .footer-col:not(:first-child) {
+        padding-left: 25px;
+    }
+
+    /* home-banner-sec css start */
+    .home-banner-sec .banner-content .section-title h2 {
+        font-size: 50px;
+    }
+
+    .home-banner-sec::after {
+        font-size: 100px;
+        letter-spacing: 40px;
+    }
+
+    /* about-sec css start */
+    .leaf {
+        max-width: 200px;
+    }
+
+    /* appointment sec css start */
+    .appointment-sec .check-box-div li {
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+
+    /* contact-sec css start */
+    .contact-sec .contact-form {
+        padding: 40px;
+    }
+
+    .contact-sec .leaf {
+        right: 2%;
+    }
+
+    .contact-sec .section-title {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    :root {
+        --h1: normal 400 34px/1.2 var(--first-font);
+        --h2: normal 400 28px/1.2 var(--first-font);
+        --h3: normal 400 22px/1.2 var(--first-font);
+    }
+
+    .desk-only {
+        display: none !important;
+    }
+
+    .pb {
+        padding-bottom: 40px;
+    }
+
+    .pt {
+        padding-top: 40px;
+    }
+
+    /* header css start */
+    .site-header .main-navigationbar .menu-items-col .main-nav>li:not(:last-of-type) {
+        padding-right: 15px;
+    }
+
+    .site-header .main-navigationbar .logo-col {
+        max-width: 120px;
+    }
+
+    /* footer css */
+    .site-footer .footer-wrapper {
+        padding: 40px 0;
+    }
+
+    .footer-wrapper .footer-left {
+        max-width: 100%;
+    }
+
+    .site-footer .footer-logo {
+        text-align: center;
+    }
+
+    .site-footer .footer-right {
+        max-width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .site-footer .footer-col:not(:first-child) {
+        padding-left: 20px;
+    }
+
+    .footer-wrapper .footer-left p {
+        text-align: center;
+    }
+
+    /* home-banner-sec css start */
+    .home-banner-sec .banner-content .section-title h2 {
+        font-size: 36px;
+    }
+
+    .home-banner-sec .banner-bg-1 {
+        max-width: 160px;
+    }
+
+    .home-banner-sec {
+        padding: 90px 0 70px;
+    }
+
+    .home-banner-sec::after {
+        font-size: 80px;
+        letter-spacing: 30px;
+    }
+
+    /* about-sec css start */
+    .leaf {
+        max-width: 150px;
+    }
+
+    /* appointment sec css start */
+    .appointment-sec .check-box-div li {
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+    }
+
+    /* working-hrs-sec css start */
+    .working-hrs-sec .section-title {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .working-hrs-sec .section-title p {
+        max-width: 100%;
+    }
+    .working-hrs-sec .leaf-2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    :root {
+        --common-text: normal 400 14px/1.4 var(--first-font);
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        height: 35px;
+        width: 35px;
+        opacity: 1;
+        visibility: visible;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    /* header css */
+    .main-nav {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: var(--white);
+        border-top: 1px solid var(--primary-color);
+        z-index: 2;
+        flex-direction: column;
+    }
+
+    .menu-item-left,
+    .menu-item-right .mobile-menu-button svg.close-icon {
+        display: none;
+    }
+
+    .menu-item-left.open {
+        display: block;
+        order: 3;
+        width: calc(100% + 30px);
+        height: 100%;
+        margin: 15px -15px 0;
+    }
+
+    .site-header .main-navigationbar .menu-items-col .main-nav>li {
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    .site-header .main-navigationbar .menu-items-col .main-nav>li a {
+        width: 100%;
+    }
+
+    .site-header .main-navigationbar .menu-items-col .main-nav>li:not(:last-of-type) {
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .site-header .main-navigationbar .main-nav li>a:before {
+        display: none;
+    }
+
+    .site-header.fixed .sticky-header {
+        position: relative;
+    }
+
+    .site-header .menu-item-right .contact-btn .btn {
+        padding: 7px;
+    }
+
+    .site-header .menu-item-right .contact-btn .btn,
+    .site-header .mobile-menu .mobile-menu-button {
+        background-color: var(--white);
+        border-color: var(--white);
+    }
+
+    .menu-item-right ul li {
+        width: 38px;
+        height: 38px;
+    }
+
+    .site-header .menu-item-right .contact-btn a svg {
+        display: block;
+    }
+
+    .site-header .menu-item-right .contact-btn a svg path {
+        fill: var(--primary-color);
+    }
+
+    .site-header .menu-item-right .contact-btn a span {
+        display: none;
+    }
+
+    .site-header .mobile-menu {
+        display: block;
+    }
+
+    /* footer css */
+    .site-footer .footer-wrapper {
+        padding: 40px 0 20px;
+    }
+
+    .site-footer .footer-logo {
+        padding-bottom: 20px;
+    }
+
+    .site-footer .footer-right {
+        margin: 20px 0 0 0;
+    }
+
+    .site-footer .footer-col {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .site-footer .footer-col .footer-widget .acnav-label1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 0 10px;
+        font-size: 18px;
+    }
+
+    .site-footer .footer-col .footer-widget .acnav-label1 span {
+        flex: 1;
+        display: block;
+    }
+
+    .site-footer .footer-col .acnav-label1 svg {
+        height: 11px;
+        width: 11px;
+        transition: all 500ms ease-in-out 0s;
+        -webkit-transition: all 500ms ease-in-out 0s;
+        -moz-transition: all 500ms ease-in-out 0s;
+        -ms-transition: all 500ms ease-in-out 0s;
+        -o-transition: all 500ms ease-in-out 0s;
+    }
+
+    .site-footer .footer-col .footer-widget .acnav-label1 svg path {
+        fill: var(--white);
+    }
+
+    .site-footer .footer-col .is-open.acnav-label1>svg {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+    .footer-row .acnav-list1,
+    .site-footer .footer-col h2:after {
+        display: none;
+    }
+
+    .footer-row .footer-col:not(:last-of-type) .acnav-list1 {
+        padding: 0 0 12px 0;
+        margin: 10px 0;
+    }
+
+    .site-footer .footer-col:not(:first-child) {
+        padding: 0;
+    }
+
+    .site-footer .footer-widget ul.acnav-list1>li:not(:last-of-type) {
+        margin-bottom: 8px;
+    }
+
+    /* home-banner-sec css start */
+    .home-banner-sec .banner-bg-2 {
+        display: none;
+    }
+
+    .home-banner-sec .row {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .home-banner-sec {
+        padding: 90px 0 40px;
+    }
+
+    .home-banner-sec::after {
+        display: none;
+    }
+
+    /* about-sec css start */
+    .about-sec {
+        padding: 40px 0;
+    }
+
+    .about-sec::after {
+        width: 100%;
+    }
+
+    .about-sec .about-content {
+        margin-top: 20px;
+    }
+
+    /* service-sec css start */
+    .service-sec .service-leaf {
+        left: 0;
+        top: -20px;
+    }
+
+    .service-sec .service-rose {
+        top: -60px;
+        right: -40px;
+        max-width: 120px;
+    }
+
+    /* appointment sec css start */
+    .appointment-sec .check-box-div li {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .steps ul li::after {
+        display: none;
+    }
+
+    .steps ul {
+        gap: 10px;
+    }
+
+    .steps ul li:not(:last-of-type) {
+        padding: 0;
+    }
+
+    .steps ul li span {
+        height: 20px;
+        width: 20px;
+    }
+
+    .appointment-sec .steps {
+        margin-bottom: 15px;
+    }
+
+    .appointment-sec .appointment-wrp {
+        padding: 20px 15px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .payment-method-form .radio-group label img {
+        max-width: 30px;
+    }
+
+    .appointment-sec .step-btns {
+        border-top: 0;
+        padding-top: 0;
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    .appointment-sec .tabs {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .appointment-sec .tabs li {
+        flex: 1;
+        text-align: center;
+    }
+
+    .appointment-sec .appointment-bg {
+        top: -15px;
+        right: 10%;
+    }
+
+    /* testimonial-sec css start */
+    .testimonial-sec .testimonial-wrp {
+        background: linear-gradient(0deg, rgba(243, 238, 232, 1) 100%, rgb(250, 247, 242, 1) 0%);
+        padding-top: 40px;
+    }
+
+    .testimonial-left-img {
+        margin: 0;
+    }
+
+    .testimonial-content {
+        padding-top: 0;
+    }
+
+    .testimonial-card {
+        gap: 20px;
+    }
+
+    .testimonial-sec .testimonial-wrp::before {
+        display: none;
+    }
+
+    /* contact-sec css start */
+    .contact-sec .contact-form-wrp {
+        margin: 0;
+    }
+
+    .contact-sec .contact-bg {
+        display: none;
+    }
+
+    .contact-sec .contact-form {
+        padding: 15px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .contact-sec .section-title {
+        color: var(--primary-color);
+    }
+
+    .contact-sec .section-title h2 {
+        font: var(--h2);
+        font-family: var(--second-font);
+    }
+
+    .contact-sec .leaf {
+        display: none;
+    }
+
+    /* contact-direction-sec css start */
+    .contact-direction-sec .contact-direction-inner iframe {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    :root {
+        --h1: normal 400 32px/1.2 var(--first-font);
+        --h2: normal 400 24px/1.2 var(--first-font);
+        --h3: normal 400 20px/1.2 var(--first-font);
+    }
+
+    .nice-select,
+    .nice-select .list,
+    .form-control,
+    input:not([type="submit"]),
+    input:not([type="checkbox"]),
+    input:not([type="button"]),
+    input:not([type="radio"]),
+    textarea,
+    textarea.form-control {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    /* footer css */
+    .site-footer .footer-bottom-inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .site-footer .footer-widget ul li a,
+    .site-footer .footer-widget ul li p {
+        font-size: 14px;
+    }
+
+    /* home-banner-sec css start */
+    .home-banner-sec .banner-bg-1 {
+        top: 16%;
+        max-width: 30vw;
+    }
+
+    .home-banner-sec .banner-content .section-title h2 {
+        font-size: 28px;
+    }
+
+    /* about-sec css start */
+    .leaf {
+        display: none;
+    }
+
+    .about-sec .leaf {
+        right: 0;
+        top: -13%;
+        max-width: 40vw;
+        display: block;
+    }
+
+    /* service-sec css start */
+    .img-title {
+        padding-bottom: 55px;
+    }
+
+    .img-title::after {
+        background-size: 70%;
+        height: 45px;
+    }
+    .service-sec .service-rose {
+        display: block;
+    }
+
+    /* appointment sec css start */
+    .appointment-sec .checkbox-custom label {
+        padding: 10px;
+    }
+
+    .appointment-sec .checkbox-custom label svg {
+        display: none;
+    }
+
+    .appointment-sec .tabs {
+        gap: 5px;
+    }
+
+    .appointment-sec .tabs li a {
+        padding: 0 0 5px;
+        font-size: 12px;
+    }
+
+    .steps ul {
+        gap: 5px;
+        align-items: start;
+    }
+
+    .steps ul li {
+        flex-direction: column;
+        flex: 1;
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 0.2px;
+    }
+
+    .appointment-sec .appointment-bg {
+        display: none;
+    }
+
+    .appointment-sec .appointment-wrp h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /* portfolio-sec css start */
+    .portfolio-sec .container-fluide {
+        padding: 0 15px;
+    }
+
+    /* testimonial-sec css start */
+    .testimonial-card {
+        flex-direction: column;
+    }
+
+    .testimonial-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .testimonial-content .review-star {
+        margin: 0 auto 15px;
+    }
+
+    .testimonial-sec .section-title {
+        padding: 0 15px 55px;
+    }
+
+    .testimonial-left,
+    .testimonial-right {
+        max-width: 100%;
+    }
+
+    .working-hrs-sec .working-info {
+        column-count: 1;
+    }
+    .working-hrs-sec .leaf-1 {
+        display: block;
+        max-width: 30vw;
+        top: -45px;
+    }
+}
