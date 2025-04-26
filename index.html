@@ -34,22 +34,22 @@
                         <nav class="menu-items-col">
                             <ul class="main-nav flex align-center">
                                 <li class="menu-lnk">
-                                    <a href="#home" tabindex="0">Home</a>
+                                    <a href="javascript:void(0);" data-target="home" tabindex="0">Home</a>
                                 </li>
                                 <li class="menu-lnk">
-                                    <a href="#about" tabindex="0">about us</a>
+                                    <a href="javascript:void(0);" data-target="about" tabindex="0">about us</a>
                                 </li>
                                 <li class="menu-lnk">
-                                    <a href="#service" tabindex="0">our services</a>
+                                    <a href="javascript:void(0);" data-target="service" tabindex="0">our services</a>
                                 </li>
                                 <li class="menu-lnk">
-                                    <a href="#team" tabindex="0">our team</a>
+                                    <a href="javascript:void(0);" data-target="team" tabindex="0">our team</a>
                                 </li>
                                 <li class="menu-lnk">
-                                    <a href="#portfolio" tabindex="0">portfolio</a>
+                                    <a href="javascript:void(0);" data-target="portfolio" tabindex="0">portfolio</a>
                                 </li>
                                 <li class="menu-lnk">
-                                    <a href="#blog" tabindex="0"> blog</a>
+                                    <a href="javascript:void(0);" data-target="blog" tabindex="0"> blog</a>
                                 </li>
                             </ul>
                         </nav>
@@ -1386,6 +1386,27 @@
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/custom.js"></script>
     <!--scripts end here-->
+
+    <script>
+        // scrollspy url js
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelectorAll('a[data-target]');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    const targetId = this.getAttribute('data-target');
+                    const targetElement = document.getElementById(targetId);
+
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
 
 </body>
 
